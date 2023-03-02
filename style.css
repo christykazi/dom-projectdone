@@ -1,0 +1,141 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* scroll-padding-top: 2rem;
+    scroll-behavior: smooth; */
+    /* list-style: none; */
+    /* text-decoration: none; */
+    
+}
+.nol{
+    font-size: 45px;
+}
+
+
+.navbar{
+    background-color: #fefae0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    padding:10px 20px;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-style: italic;
+    
+ } 
+.cart{
+    background-color:white;
+    position: relative;
+    color: black;
+    font-size: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 40%;   
+}
+.cartAmount{
+    position: absolute;
+    top: -8px;
+    left: -8px ;
+    border-radius: 3px;
+    font-size: 5px;
+font-size: 15px;
+background-color: red;
+color: white;
+justify-self: end;
+}
+.seea{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.eym{
+    text-align: center;
+    font-style: oblique;
+    justify-content: end;
+    font-size: 150%;
+    color: rgb(230, 192, 123);
+    position: relative;
+}
+.tiem{
+    text-align: center;
+   
+}
+.meit{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+padding-bottom: 130px;
+    border: 4px;
+    margin: 40px;
+    color: rgb(175, 144, 64);
+    gap: 25px;
+    box-sizing: border-box;
+    
+    
+}
+.eitm{
+    color: rgb(175, 144, 64);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+    padding: 103px 0px ;
+    padding-bottom: 89px;
+    margin: 40px;
+    gap: 25px;
+
+
+}
+.item{
+box-sizing: border-box;
+gap: 5px;
+}
+.butto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.quantity{
+display: flex;
+flex-direction: row;
+gap: 8px;
+font-size: 17px;
+}
+.bi-dash{
+   color: red; 
+}
+  .bi bi-plus{
+    color: green;
+  }
+                            
+.foo{
+padding: 102px 20px ;
+position: sticky;
+}
+
+
+
+
+
+/* /* .root { */
+    /* --main-color:  #fd4646; */
+    /* --text-color: #171427 ; */
+    /* --bg-color: #fff ; */
+
+    
+    /* color: var(--text-color); */
+
+ /* header{ */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* background: var(--bg-color);} */

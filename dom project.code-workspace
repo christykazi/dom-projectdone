@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../dom pic"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dom project"
+	}
+}
